@@ -80,8 +80,8 @@
 <div>
     <h2 id="mapName"></h2>
 
-    <div id="map" style="width : 400px; height : 300px; margin : 0px; padding : 0px; float : left; margin-right:20px; border:solid 1px red;"></div>
-    @*style="width : 700px; height : 400px; margin : 0px; padding : 0px; float : left; margin-right:20px;"*@
+    <div id="map" 
+         style="width : 400px; height : 300px; margin : 0px; padding : 0px; float : left; margin-right:20px; border:solid 1px red;"></div>
     <p id="info"></p>
     <img id="image" src="" />
 
@@ -92,4 +92,9 @@
     @Html.ActionLink("Edit", "Edit", new { id = Model.ContactId }) |
     @Html.ActionLink("Back to List", "Index")
 </p>
+
+<script>
+           var MapId = @Model.ContactId
+</script>
+
 <script src="~/Scripts/LocationsMap.js"></script>
