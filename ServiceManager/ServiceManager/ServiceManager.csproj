@@ -177,6 +177,7 @@
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\Client.cs" />
     <Compile Include="Models\Contact.cs" />
+    <Compile Include="Models\CustomerRep.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />

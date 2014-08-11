@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ServiceManager.Models
 {
-    public class Contact
+    public class CustomerRep
     {
     }
 }
