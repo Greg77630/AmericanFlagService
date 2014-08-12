@@ -15,5 +15,7 @@ namespace ServiceManager.Models
 
         public Address BillingAddress { get; set; }
         public CustomerRep CustomerRep { get; set; }
+
+        public Note Notes { get; set; }
     }
 }

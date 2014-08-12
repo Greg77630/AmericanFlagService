@@ -13,6 +13,6 @@ namespace ServiceManager.Models
         [Description("Work")]
         Work,
         [Description("Mobile")]
-        Mobile,
+        Mobile
     }
 }

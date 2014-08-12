@@ -179,6 +179,7 @@
     <Compile Include="Models\Contact.cs" />
     <Compile Include="Models\CustomerRep.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Note.cs" />
     <Compile Include="Models\PhoneNumber.cs" />
     <Compile Include="Models\PhoneType.cs" />
     <Compile Include="Models\State.cs" />
